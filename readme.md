@@ -4,7 +4,10 @@ What?
 A minimalist color scheme for Neovim and Vim which was inspired from
 [typewriter](https://github.com/logico-dev/typewriter).
 
-![the minimalist vim color scheme](./demo.png "The minimalist")
+<figure align="center">
+  <img src="./demo.png" alt="vim-colors-darkprint" width="538" height="309">
+  <figcaption>The minimalist/figcaption>
+</figure> 
 
 How?
 ====
