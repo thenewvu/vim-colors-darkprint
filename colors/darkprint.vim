@@ -69,9 +69,9 @@ hi       VisualNOS guifg=none    guibg=#000000 gui=none
 hi         NonText guifg=#6c6c6c guibg=none    gui=none
 hi            Todo guifg=#af5fff guibg=none    gui=none
 hi      Underlined guifg=none    guibg=none    gui=underline
-hi           Error guifg=#ac4142 guibg=none    gui=none
-hi        ErrorMsg guifg=#ac4142 guibg=none    gui=none
-hi      WarningMsg guifg=#ac4142 guibg=none    gui=none
+hi           Error guifg=#ff5252 guibg=none    gui=none
+hi        ErrorMsg guifg=#ff5252 guibg=none    gui=none
+hi      WarningMsg guifg=#ff5252 guibg=none    gui=none
 hi          Ignore guifg=#262626 guibg=none    gui=none
 hi      SpecialKey guifg=#af5fff guibg=none    gui=none
 
@@ -106,31 +106,31 @@ hi         Special guifg=#a8a8a8 guibg=none    gui=none
 hi     SpecialChar guifg=#a8a8a8 guibg=none    gui=none
 hi             Tag guifg=#a8a8a8 guibg=none    gui=none
 hi       Delimiter guifg=#6c6c6c guibg=none    gui=none
-hi  SpecialComment guifg=#a8a8a8 guibg=none    gui=none
+hi  SpecialComment guifg=#af5fff guibg=none    gui=none
 hi           Debug guifg=#6c6c6c guibg=none    gui=none
 
 " ----------
 " - C like -
 " ----------
-hi         PreProc guifg=#a8a8a8 guibg=none    gui=none
-hi         Include guifg=#a8a8a8 guibg=none    gui=none
-hi          Define guifg=#a8a8a8 guibg=none    gui=none
-hi           Macro guifg=#a8a8a8 guibg=none    gui=none
-hi       PreCondit guifg=#a8a8a8 guibg=none    gui=none
+hi         PreProc guifg=#af5fff guibg=none    gui=none
+hi         Include guifg=#af5fff guibg=none    gui=none
+hi          Define guifg=#af5fff guibg=none    gui=none
+hi           Macro guifg=#af5fff guibg=none    gui=none
+hi       PreCondit guifg=#af5fff guibg=none    gui=none
 
 hi            Type guifg=#a8a8a8 guibg=none    gui=none
-hi    StorageClass guifg=#a8a8a8 guibg=none    gui=none
-hi       Structure guifg=#a8a8a8 guibg=none    gui=none
-hi         Typedef guifg=#a8a8a8 guibg=none    gui=none
+hi    StorageClass guifg=#af5fff guibg=none    gui=none
+hi       Structure guifg=#af5fff guibg=none    gui=none
+hi         Typedef guifg=#af5fff guibg=none    gui=none
 
 " --------------------------------
 " Diff
 " --------------------------------
-hi         DiffAdd guifg=#90a959 guibg=none    gui=none
-hi      DiffChange guifg=#f4bf75 guibg=none    gui=none
-hi      DiffDelete guifg=#ac4142 guibg=none    gui=none
+hi         DiffAdd guifg=#52ff52 guibg=none    gui=none
+hi      DiffChange guifg=#fff452 guibg=none    gui=none
+hi      DiffDelete guifg=#ff5252 guibg=none    gui=none
 hi        DiffText guifg=#a8a8a8 guibg=none    gui=none
-hi        DiffFile guifg=#a8a8a8 guibg=none    gui=bold
+hi        DiffFile guifg=#af5fff guibg=none    gui=none
 
 hi            link diffAdded           DiffAdd
 hi            link diffRemoved      DiffDelete
@@ -146,10 +146,10 @@ hi      PmenuThumb guifg=#6c6c6c guibg=#000000 gui=none
 " --------------------------------
 " Spelling
 " --------------------------------
-hi        SpellBad guifg=#ac4142 guibg=none    gui=none
-hi        SpellCap guifg=#ac4142 guibg=none    gui=none
-hi      SpellLocal guifg=#ac4142 guibg=none    gui=none
-hi       SpellRare guifg=#ac4142 guibg=none    gui=none
+hi        SpellBad guifg=#ff5252 guibg=none    gui=none
+hi        SpellCap guifg=#ff5252 guibg=none    gui=none
+hi      SpellLocal guifg=#ff5252 guibg=none    gui=none
+hi       SpellRare guifg=#ff5252 guibg=none    gui=none
 
 "--------------------------------------------------------------------
 " Specific settings                                                 |
