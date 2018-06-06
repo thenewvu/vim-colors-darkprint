@@ -1,5 +1,6 @@
 " Author: Vu Le <thenewvu@gmail.com>
 " Maintainer: Vu Le <thenewvu@gmail.com>
+" License: MIT
 " Thanks to @ggalindezb for the template.
 
 set background=dark
