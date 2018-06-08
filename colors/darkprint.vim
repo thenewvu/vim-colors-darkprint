@@ -47,8 +47,8 @@ hi      TabLineSel guifg=#a8a8a8 guibg=#000000 gui=none
 " - File Navigation / Searching -
 " -------------------------------
 hi       Directory guifg=none    guibg=none    gui=underline
-hi          Search guifg=none    guibg=none    gui=underline
-hi       IncSearch guifg=none    guibg=none    gui=underline
+hi          Search guifg=#ffffff guibg=#4d4d4d gui=none
+hi       IncSearch guifg=#ffffff guibg=#4d4d4d gui=none
 
 " -----------------
 " - Prompt/Status -
@@ -64,15 +64,15 @@ hi         MoreMsg guifg=#af5fff guibg=none    gui=none
 " --------------
 " - Visual aid -
 " --------------
-hi      MatchParen guifg=#af5fff guibg=none    gui=none
-hi          Visual guifg=none    guibg=#000000 gui=none
-hi       VisualNOS guifg=none    guibg=#000000 gui=none
+hi      MatchParen guifg=#ffffff guibg=#4d4d4d gui=underline
+hi          Visual guifg=#ffffff guibg=#4d4d4d gui=none
+hi       VisualNOS guifg=#ffffff guibg=#4d4d4d gui=none
 hi         NonText guifg=#6c6c6c guibg=none    gui=none
 hi            Todo guifg=#af5fff guibg=none    gui=none
 hi      Underlined guifg=none    guibg=none    gui=underline
-hi           Error guifg=#ff5f87 guibg=none    gui=none
-hi        ErrorMsg guifg=#ff5f87 guibg=none    gui=none
-hi      WarningMsg guifg=#ff5f87 guibg=none    gui=none
+hi           Error guifg=#D94D40 guibg=none    gui=none
+hi        ErrorMsg guifg=#D94D40 guibg=none    gui=none
+hi      WarningMsg guifg=#D94D40 guibg=none    gui=none
 hi          Ignore guifg=#262626 guibg=none    gui=none
 hi      SpecialKey guifg=#af5fff guibg=none    gui=none
 
@@ -127,9 +127,9 @@ hi         Typedef guifg=#af5fff guibg=none    gui=none
 " --------------------------------
 " Diff
 " --------------------------------
-hi         DiffAdd guifg=#20c997 guibg=none    gui=none
-hi      DiffChange guifg=#fff452 guibg=none    gui=none
-hi      DiffDelete guifg=#ff5f87 guibg=none    gui=none
+hi         DiffAdd guifg=#2fa689 guibg=none    gui=none
+hi      DiffChange guifg=#F2B13C guibg=none    gui=none
+hi      DiffDelete guifg=#D94D40 guibg=none    gui=none
 hi        DiffText guifg=#a8a8a8 guibg=none    gui=none
 hi        DiffFile guifg=#af5fff guibg=none    gui=none
 
@@ -147,10 +147,10 @@ hi      PmenuThumb guifg=#6c6c6c guibg=#000000 gui=none
 " --------------------------------
 " Spelling
 " --------------------------------
-hi        SpellBad guifg=#ff5f87 guibg=none    gui=none
-hi        SpellCap guifg=#ff5f87 guibg=none    gui=none
-hi      SpellLocal guifg=#ff5f87 guibg=none    gui=none
-hi       SpellRare guifg=#ff5f87 guibg=none    gui=none
+hi        SpellBad guifg=#D94D40 guibg=none    gui=none
+hi        SpellCap guifg=#D94D40 guibg=none    gui=none
+hi      SpellLocal guifg=#D94D40 guibg=none    gui=none
+hi       SpellRare guifg=#D94D40 guibg=none    gui=none
 
 "--------------------------------------------------------------------
 " Specific settings                                                 |
