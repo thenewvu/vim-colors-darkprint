@@ -20,7 +20,7 @@ let g:colors_name="darkprint"
 " --------------------------------
 " Editor settings
 " --------------------------------
-hi          Normal guifg=#a8a8a8 guibg=#262626 gui=none
+hi          Normal guifg=#a8a8a8 guibg=#1c1d1f gui=none
 hi          Cursor guifg=none    guibg=none    gui=standout
 hi      CursorLine guifg=none    guibg=#000000 gui=none
 hi          LineNr guifg=#6c6c6c guibg=none    gui=none
@@ -70,9 +70,9 @@ hi       VisualNOS guifg=none    guibg=#000000 gui=none
 hi         NonText guifg=#6c6c6c guibg=none    gui=none
 hi            Todo guifg=#af5fff guibg=none    gui=none
 hi      Underlined guifg=none    guibg=none    gui=underline
-hi           Error guifg=#ff5252 guibg=none    gui=none
-hi        ErrorMsg guifg=#ff5252 guibg=none    gui=none
-hi      WarningMsg guifg=#ff5252 guibg=none    gui=none
+hi           Error guifg=#ff5f87 guibg=none    gui=none
+hi        ErrorMsg guifg=#ff5f87 guibg=none    gui=none
+hi      WarningMsg guifg=#ff5f87 guibg=none    gui=none
 hi          Ignore guifg=#262626 guibg=none    gui=none
 hi      SpecialKey guifg=#af5fff guibg=none    gui=none
 
@@ -105,7 +105,7 @@ hi       Exception guifg=#af5fff guibg=none    gui=none
 
 hi         Special guifg=#a8a8a8 guibg=none    gui=none
 hi     SpecialChar guifg=#a8a8a8 guibg=none    gui=none
-hi             Tag guifg=#a8a8a8 guibg=none    gui=none
+hi             Tag guifg=#6c6c6c guibg=none    gui=none
 hi       Delimiter guifg=#6c6c6c guibg=none    gui=none
 hi  SpecialComment guifg=#af5fff guibg=none    gui=none
 hi           Debug guifg=#6c6c6c guibg=none    gui=none
@@ -127,9 +127,9 @@ hi         Typedef guifg=#af5fff guibg=none    gui=none
 " --------------------------------
 " Diff
 " --------------------------------
-hi         DiffAdd guifg=#52ff52 guibg=none    gui=none
+hi         DiffAdd guifg=#20c997 guibg=none    gui=none
 hi      DiffChange guifg=#fff452 guibg=none    gui=none
-hi      DiffDelete guifg=#ff5252 guibg=none    gui=none
+hi      DiffDelete guifg=#ff5f87 guibg=none    gui=none
 hi        DiffText guifg=#a8a8a8 guibg=none    gui=none
 hi        DiffFile guifg=#af5fff guibg=none    gui=none
 
@@ -147,10 +147,10 @@ hi      PmenuThumb guifg=#6c6c6c guibg=#000000 gui=none
 " --------------------------------
 " Spelling
 " --------------------------------
-hi        SpellBad guifg=#ff5252 guibg=none    gui=none
-hi        SpellCap guifg=#ff5252 guibg=none    gui=none
-hi      SpellLocal guifg=#ff5252 guibg=none    gui=none
-hi       SpellRare guifg=#ff5252 guibg=none    gui=none
+hi        SpellBad guifg=#ff5f87 guibg=none    gui=none
+hi        SpellCap guifg=#ff5f87 guibg=none    gui=none
+hi      SpellLocal guifg=#ff5f87 guibg=none    gui=none
+hi       SpellRare guifg=#ff5f87 guibg=none    gui=none
 
 "--------------------------------------------------------------------
 " Specific settings                                                 |
