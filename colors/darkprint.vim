@@ -21,7 +21,7 @@ let g:colors_name="darkprint"
 " Editor settings
 " --------------------------------
 hi          Normal guifg=#a8a8a8 guibg=#1c1d1f gui=none
-hi          Cursor guifg=none    guibg=none    gui=standout
+hi          Cursor guifg=#1c1d1f guibg=#a8a8a8 gui=none
 hi      CursorLine guifg=none    guibg=#000000 gui=none
 hi          LineNr guifg=#6c6c6c guibg=none    gui=none
 hi    CursorLineNR guifg=none    guibg=#000000 gui=none
@@ -72,7 +72,7 @@ hi            Todo guifg=#af5fff guibg=none    gui=none
 hi      Underlined guifg=none    guibg=none    gui=underline
 hi           Error guifg=#D94D40 guibg=none    gui=none
 hi        ErrorMsg guifg=#D94D40 guibg=none    gui=none
-hi      WarningMsg guifg=#D94D40 guibg=none    gui=none
+hi      WarningMsg guifg=#F2B13C guibg=none    gui=none
 hi          Ignore guifg=#262626 guibg=none    gui=none
 hi      SpecialKey guifg=#af5fff guibg=none    gui=none
 
@@ -147,10 +147,10 @@ hi      PmenuThumb guifg=#6c6c6c guibg=#000000 gui=none
 " --------------------------------
 " Spelling
 " --------------------------------
-hi        SpellBad guifg=#D94D40 guibg=none    gui=none
-hi        SpellCap guifg=#D94D40 guibg=none    gui=none
-hi      SpellLocal guifg=#D94D40 guibg=none    gui=none
-hi       SpellRare guifg=#D94D40 guibg=none    gui=none
+hi        SpellBad guifg=none    guibg=none    gui=underline
+hi        SpellCap guifg=none    guibg=none    gui=underline
+hi      SpellLocal guifg=none    guibg=none    gui=underline
+hi       SpellRare guifg=none    guibg=none    gui=underline
 
 "--------------------------------------------------------------------
 " Specific settings                                                 |
